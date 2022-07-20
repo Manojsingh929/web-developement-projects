@@ -1,0 +1,99 @@
+body {
+	background: rgb(29, 28, 28);
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 1000;
+	font-size: 50px;
+}
+p {
+	font-weight: 600;
+}
+
+#enter {
+	border-color: white;
+	margin-left: 20px;
+	padding: 8px 10px;
+	width: 80px;
+	border-radius: 18px;
+	color: white;
+	background-color: black;
+	transition: all 0.75s ease;
+	font-weight: bold;
+}
+
+#enter:hover{
+	transform: scale(1.1);
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 900;
+	border: 2px solid #025f70;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	background: #0b778a;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	border-radius: 10px;
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: white;
+	font-weight: 800;
+}
+
+li > button:hover {
+	background-color:#198196;
+	transition: all 0.75 ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+input {
+	border-radius: 20px;
+	min-width: 65%;
+	padding: 10px;
+	border: none;
+}
+
+
+.done {
+	background: #3e8b4f !important;
+	color: #eaf0eb;
+}
+
+.delete {
+	display: none;
+}
